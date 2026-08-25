@@ -1,4 +1,4 @@
-# yu_100days
+# Python 100 days of code
 
 All code from the course 100 Days of Code: The Complete Python Pro Bootcamp (Angela Yu).
 
