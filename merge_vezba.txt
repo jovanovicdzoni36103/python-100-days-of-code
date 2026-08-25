@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 menjam opet brate
+=======
+evo sad sam promenio red, pretpostavljam da je ovo sad kopija na kojoj radimmmmm
+>>>>>>> vezba-2
