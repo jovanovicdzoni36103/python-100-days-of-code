@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ================= spojeno sa kursom =================
+# Materijal JetBrains Academy kursa je autorski rad App Brewery.
+# Ostaje na disku, ali ne ide na GitHub.
+/Day */
+/course-info.yaml
+/course-remote-info.yaml
+# Podesavanja PyCharm projekta. Kurs ih drzi ovde, nisu deo mog koda.
+/.idea/
+
+# privremeno, prazni day folderi cekaju brisanje
+/_OBRISI_ME_prazni_dani/
