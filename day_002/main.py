@@ -1,4 +1,4 @@
-﻿# day_002
+# day_002
 
 """
 BMI Calculator

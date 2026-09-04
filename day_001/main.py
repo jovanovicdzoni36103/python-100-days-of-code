@@ -1,4 +1,4 @@
-﻿# day_001
+# day_001
 # Tema: Osnovne komande
 
 

@@ -1,4 +1,4 @@
-﻿# day_004
+# day_004
 # Tema: Rock Paper Scissors
 
 import random
