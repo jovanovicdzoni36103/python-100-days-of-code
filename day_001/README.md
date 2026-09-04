@@ -1,4 +1,11 @@
-# Day 1
+# Day 1: Band Name Generator
+
+| | |
+|---|---|
+| Learning Day | 2 |
+| Course Day | Angela Yu Day 1 |
+| Topic | Variables, print, input |
+| Status | Completed |
 
 Today I set up Python in PyCharm. It did not work on the first try. Python was registered as installed on the machine but the installer kept failing with `0x80070659 - forbidden by system policy`, and PyCharm did not see a single interpreter. I fixed it by creating a `.venv` for the project.
 

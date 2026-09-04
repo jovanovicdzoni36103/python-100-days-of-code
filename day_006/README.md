@@ -1,4 +1,11 @@
-﻿# Day 006 Functions
+# Day 6: Functions
+
+| | |
+|---|---|
+| Learning Day | 8 |
+| Course Day | Angela Yu Day 6 |
+| Topic | Functions, while versus for, break |
+| Status | Completed |
 
 I started on reeborg.ca and went through all the exercises there. It was great for understanding because everything is shown visually, so I got through it fast. Still, I did not feel like I had really understood it, so I did 20 more practice tasks.
 

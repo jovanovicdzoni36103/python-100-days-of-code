@@ -1,4 +1,11 @@
-# Day 3
+# Day 3: Treasure Island
+
+| | |
+|---|---|
+| Learning Day | 4 |
+| Course Day | Angela Yu Day 3 |
+| Topic | Control flow, logical operators, nested conditionals |
+| Status | Completed |
 
 Today was mostly if, elif and else. It was not too hard, I have done this kind of thing in other languages already.
 

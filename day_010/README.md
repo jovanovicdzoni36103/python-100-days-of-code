@@ -1,4 +1,11 @@
-﻿# Day 010 Functions with Outputs
+# Day 10: Calculator
+
+| | |
+|---|---|
+| Learning Day | 12 |
+| Course Day | Angela Yu Day 10 |
+| Topic | Functions with outputs, return, a dictionary of functions |
+| Status | Completed |
 
 Today was about `return`. I thought I already knew what it does, and it turned out I only knew half of it. `return` hands back whatever value stands after it. If that is `7 + 3`, the function gives back an int. If it is a comparison, the function gives back `True` or `False`, because the comparison itself is already a boolean. `return` does not decide anything on its own, it just passes the value on.
 

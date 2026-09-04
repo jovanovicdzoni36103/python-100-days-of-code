@@ -241,3 +241,6 @@ task.md
 # Gotova resenja autora kursa. Nikad ne idu na GitHub.
 # Isto pravilo stoji i u sync_kurs.py.
 solution.py
+
+# Smece koje FUSE mount nije dao da se obrise, obrisati rucno.
+_to_delete/

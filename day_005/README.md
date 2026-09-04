@@ -1,4 +1,11 @@
-# Day 5
+# Day 5: Password Generator
+
+| | |
+|---|---|
+| Learning Day | 5 and 7 |
+| Course Day | Angela Yu Day 5 |
+| Topic | Loops and range, plus Git branching and merge conflicts |
+| Status | Completed |
 
 Two parts today, git and loops.
 
