@@ -228,3 +228,16 @@ __marimo__/
 
 # privremeno, prazni day folderi cekaju brisanje
 /_OBRISI_ME_prazni_dani/
+
+# Scaffolding kursa unutar day_ foldera.
+# Kurs u svaki folder ubaci svoje fajlove pored mog koda. Oni nisu moj rad
+# i ne treba da stoje u repou koji predstavlja moje ucenje.
+task-info.yaml
+task-remote-info.yaml
+lesson-info.yaml
+lesson-remote-info.yaml
+task.md
+
+# Gotova resenja autora kursa. Nikad ne idu na GitHub.
+# Isto pravilo stoji i u sync_kurs.py.
+solution.py
