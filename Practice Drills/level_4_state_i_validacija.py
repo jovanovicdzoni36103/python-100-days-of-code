@@ -1,4 +1,4 @@
-﻿import random
+import random
 
 # ==========================================
 # LEVEL 4: State, Validation & Complex Problems (Tasks 35–48)

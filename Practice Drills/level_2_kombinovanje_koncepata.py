@@ -1,4 +1,4 @@
-﻿import random
+import random
 
 # ==========================================
 # LEVEL 2: Combining Concepts (Tasks 11–22)
