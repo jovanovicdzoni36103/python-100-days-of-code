@@ -1,5 +1,4 @@
-@'
-# Day 011 The Blackjack Capstone Project
+﻿# Day 011 The Blackjack Capstone Project
 
 A command line Blackjack game against the computer. House rules: the deck is unlimited, Jack, Queen and King count as 10, and the Ace counts as 11 or 1.
 
