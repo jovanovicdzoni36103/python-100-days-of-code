@@ -244,3 +244,6 @@ solution.py
 
 # Smece koje FUSE mount nije dao da se obrise, obrisati rucno.
 _to_delete/
+
+# Moja skripta za sinhronizaciju sa kursnim projektom. Alat, ne deo gradiva.
+sync_kurs.py

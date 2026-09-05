@@ -26,13 +26,14 @@ The full table is in [course-mapping.md](course-mapping.md). Current status, inc
 | [day_008](day_008) | Day 8 | Caesar Cipher |
 | [day_009](day_009) | Day 9 | Secret Auction |
 | [day_010](day_010) | Day 10 | Calculator |
+| [day_011](day_011) | Day 11 | The Blackjack Capstone Project |
 | [Practice Drills](Practice%20Drills) | none | Four levels of exercises I wrote myself, from basic logic to state and validation |
 
 Every day folder has a README. It is a log, not documentation: what I got wrong, what I looked up, and what finally made it click. That is the part worth reading.
 
 ## What is not here
 
-The course materials are not in this repository. No `task.md`, no `solution.py`, no lesson scaffolding. Those belong to the course author and they are not my work. `sync_kurs.py` is the script that copies my code out of the JetBrains course project and leaves the author's files behind.
+The course materials are not in this repository. No `task.md`, no `solution.py`, no lesson scaffolding. That material is the course author's copyrighted work, and `.gitignore` keeps it out.
 
 Portfolio projects are not here either. This repository is practice. Finished projects get their own repositories, and the plan that schedules them is in `progress.md`.
 
