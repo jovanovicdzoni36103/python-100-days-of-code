@@ -27,6 +27,8 @@ The full table is in [course-mapping.md](course-mapping.md). Current status, inc
 | [day_009](day_009) | Day 9 | Secret Auction |
 | [day_010](day_010) | Day 10 | Calculator |
 | [day_011](day_011) | Day 11 | The Blackjack Capstone Project |
+| [day_012](day_012) | Day 12 | Number Guessing Game |
+| [day_013](day_013) | Day 13 | Debugging drills, run against the Day 11 Blackjack code |
 | [Practice Drills](Practice%20Drills) | none | Four levels of exercises I wrote myself, from basic logic to state and validation |
 
 Every day folder has a README. It is a log, not documentation: what I got wrong, what I looked up, and what finally made it click. That is the part worth reading.
