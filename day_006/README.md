@@ -2,6 +2,7 @@
 
 **Course Day:** 6  
 **Learning Day:** 8  
+**Date:** 2026-08-26  
 **Topic:** Functions, while versus for, break  
 **Status:** Completed
 
