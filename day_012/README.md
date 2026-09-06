@@ -1,10 +1,19 @@
-# Day 012 Scope
+# Day 12: Number Guessing Game
+
+| | |
+|---|---|
+| Learning Day | 14 |
+| Course Day | Angela Yu Day 12 |
+| Topic | Scope, local versus global, return instead of global |
+| Status | Completed |
 
 Today was about scope. The idea itself was not new to me. I had run into it while debugging earlier exercises and worked out roughly how it behaves, but I did not know it had a name.
 
 What I did not have before is the reason why `global` is almost never the answer. A function that changes something outside itself does it invisibly. Whoever reads the call sees nothing, and that kind of bug takes the longest to find. I had already written one of those in Blackjack, where `sum_score` modifies the hand it is given.
 
-I finished all the small exercises for this lesson, including the prime number checker. The Number Guessing Game project is not done. That is the first thing tomorrow.## Number Guessing Game
+I finished all the small exercises for this lesson, including the prime number checker. The Number Guessing Game project is not done. That is the first thing tomorrow.
+
+## Number Guessing Game
 
 The project is finished. The computer picks a number between 1 and 100, the player chooses easy or hard, which gives ten or five attempts, and after every guess the program says whether the guess was too high or too low.
 
