@@ -2,6 +2,7 @@
 
 **Course Day:** 13  
 **Learning Day:** 15  
+**Date:** 2026-09-04  
 **Topic:** Debugging, breakpoints, stepping through code, watching variables  
 **Status:** Completed
 
