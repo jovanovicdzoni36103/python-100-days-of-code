@@ -2,6 +2,7 @@
 
 **Course Day:** 3  
 **Learning Day:** 4  
+**Date:** 2026-08-20  
 **Topic:** Control flow, logical operators, nested conditionals  
 **Status:** Completed
 
