@@ -26,9 +26,9 @@ Some course days are skipped on purpose. The reason is written in the table.
 | 10 | 2026-08-28 | Day 8 | Function parameters | Caesar Cipher | `day_008` | Done |
 | 11 | 2026-08-31 | Day 9 | Dictionaries, nesting | Secret Auction | `day_009` | Done |
 | 12 | 2026-09-01 | Day 10 | Functions with outputs, return | Calculator | `day_010` | Done |
-| 13 | 2026-09-02 | Day 11 | Capstone | Blackjack | `day_011` | Not started |
-| 14 | 2026-09-03 | Day 12 | Scope | Number Guessing Game | `day_012` | Not started |
-| 15 | 2026-09-04 | Day 13 | Debugging | debugger drill on Blackjack | `day_013` | Not started |
+| 13 | 2026-09-02 | Day 11 | Capstone | Blackjack | `day_011` | Done |
+| 14 | 2026-09-03 | Day 12 | Scope | Number Guessing Game | `day_012` | Done |
+| 15 | 2026-09-04 | Day 13 | Debugging | debugger drill on Blackjack | `day_013` | Done |
 | 16 | 2026-09-07 | Day 14 | Guided project | Higher Lower | `day_014` | Planned |
 | 17 | 2026-09-08 | Day 15 | Local dev environment | Coffee Machine | `day_015` | Planned |
 | 18 | 2026-09-09 | Day 16 | Object oriented programming | Coffee Machine OOP | `day_016` | Planned |
