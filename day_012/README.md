@@ -2,6 +2,7 @@
 
 **Course Day:** 12  
 **Learning Day:** 14  
+**Date:** 2026-09-03  
 **Topic:** Scope, local versus global, return instead of global  
 **Status:** Completed
 
