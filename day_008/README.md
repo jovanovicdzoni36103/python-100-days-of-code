@@ -2,6 +2,7 @@
 
 **Course Day:** 8  
 **Learning Day:** 10  
+**Date:** 2026-08-28  
 **Topic:** Function parameters, positional versus keyword arguments, modulo  
 **Status:** Completed
 
