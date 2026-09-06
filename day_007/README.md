@@ -2,6 +2,7 @@
 
 **Course Day:** 7  
 **Learning Day:** 9  
+**Date:** 2026-08-27  
 **Topic:** Guided project, list indexing by position  
 **Status:** Completed
 
