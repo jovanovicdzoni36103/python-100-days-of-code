@@ -1,18 +1,18 @@
 # Progress
 
-Last updated: 4 September 2026.
+Last updated: 6 September 2026.
 
 ## Where I actually am
 
 | | |
 |---|---|
 | Expected Learning Day | 15 of 260 |
-| Last completed Learning Day | 12 |
-| Days behind | 2 full days, plus today not started |
-| Last completed Course Day | Angela Yu Day 10 |
-| Next Course Day | Angela Yu Day 11, Blackjack |
-| Backlog | 395 minutes: Day 11 Blackjack (140), Day 12 Scope (130), Day 13 Debugging (125) |
-| Plan completed | 4.6 percent |
+| Last completed Learning Day | 15 |
+| Days behind | None. The backlog was cleared over the weekend of 5 and 6 September |
+| Last completed Course Day | Angela Yu Day 13 |
+| Next Course Day | Angela Yu Day 14, Higher Lower |
+| Backlog | Empty |
+| Plan completed | 5.8 percent |
 | Phase | 0+1, Python through a guided course |
 | Phase ends | Week 11, gate on 30 October 2026 |
 
@@ -22,13 +22,13 @@ I am not renumbering anything to hide the gap. Learning Day 13 stays Learning Da
 
 ## Completed
 
-Learning Days 1 to 12. Course Days 1 to 10, plus a Git day and a setup day that have no course equivalent.
+Learning Days 1 to 15. Course Days 1 to 13, plus a Git day and a setup day that have no course equivalent.
 
 Twelve consecutive weekdays with a commit on each working day, from 16 August to 2 September.
 
 ## Not started
 
-Learning Days 13, 14 and 15. Course Days 11, 12 and 13.
+Learning Day 16 onwards. The next course day is Angela Yu Day 14, Higher Lower, scheduled for 7 September.
 
 ## What phase 0+1 has to produce
 
