@@ -4,6 +4,7 @@ Forty eight exercises I wrote for myself, outside the course. When a topic did n
 stick the first time I came back here and drilled it until it did, so these are not
 tied to any single course day.
 
+**Course Day:** none  
 **Levels:** 4  
 **Tasks:** 48  
 **Status:** Completed
