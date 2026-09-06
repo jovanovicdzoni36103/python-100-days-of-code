@@ -1,11 +1,9 @@
 # Day 4: Rock Paper Scissors
 
-| | |
-|---|---|
-| Learning Day | 6 |
-| Course Day | Angela Yu Day 4 |
-| Topic | Randomisation, lists, indexing |
-| Status | Completed |
+**Course Day:** 4  
+**Learning Day:** 6  
+**Topic:** Randomisation, lists, indexing  
+**Status:** Completed
 
 Today I built Rock Paper Scissors. So far this was the hardest project in the course.
 

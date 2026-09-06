@@ -1,11 +1,9 @@
 # Day 12: Number Guessing Game
 
-| | |
-|---|---|
-| Learning Day | 14 |
-| Course Day | Angela Yu Day 12 |
-| Topic | Scope, local versus global, return instead of global |
-| Status | Completed |
+**Course Day:** 12  
+**Learning Day:** 14  
+**Topic:** Scope, local versus global, return instead of global  
+**Status:** Completed
 
 Today was about scope. The idea itself was not new to me. I had run into it while debugging earlier exercises and worked out roughly how it behaves, but I did not know it had a name.
 

@@ -1,11 +1,9 @@
 # Day 9: Secret Auction
 
-| | |
-|---|---|
-| Learning Day | 11 |
-| Course Day | Angela Yu Day 9 |
-| Topic | Dictionaries and nested data |
-| Status | Completed |
+**Course Day:** 9  
+**Learning Day:** 11  
+**Topic:** Dictionaries and nested data  
+**Status:** Completed
 
 Today I learned how dictionaries work in Python and how they can be used to store and organize information. I also learned how to work with nested data, like dictionaries inside dictionaries and lists inside dictionaries. For practice, I made a simple secret auction program where users enter their name and bid, and the program stores everything in a dictionary. I also made it so the previous bid is hidden before the next person enters theirs.
 

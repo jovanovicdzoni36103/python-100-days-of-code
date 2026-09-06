@@ -1,11 +1,9 @@
 # Day 2: Tip Calculator
 
-| | |
-|---|---|
-| Learning Day | 3 |
-| Course Day | Angela Yu Day 2 |
-| Topic | Data types, string manipulation, f-strings |
-| Status | Completed |
+**Course Day:** 2  
+**Learning Day:** 3  
+**Topic:** Data types, string manipulation, f-strings  
+**Status:** Completed
 
 I built the BMI Calculator first. That one was easy, I had done the same thing at university and in heavier versions, so nothing there gave me trouble.
 

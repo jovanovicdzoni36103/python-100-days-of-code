@@ -1,11 +1,9 @@
 # Day 7: Hangman
 
-| | |
-|---|---|
-| Learning Day | 9 |
-| Course Day | Angela Yu Day 7 |
-| Topic | Guided project, list indexing by position |
-| Status | Completed |
+**Course Day:** 7  
+**Learning Day:** 9  
+**Topic:** Guided project, list indexing by position  
+**Status:** Completed
 
 Honestly, after yesterday I thought this was gonna be a breeze. Boy was I wrong. Building a full game with actual moving parts proved that I still make dumb logic errors pretty easily. But hey, we got there in the end.
 

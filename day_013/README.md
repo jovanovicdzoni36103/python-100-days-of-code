@@ -1,11 +1,9 @@
 # Day 13: Debugging
 
-| | |
-|---|---|
-| Learning Day | 15 |
-| Course Day | Angela Yu Day 13 |
-| Topic | Debugging, breakpoints, stepping through code, watching variables |
-| Status | Completed |
+**Course Day:** 13  
+**Learning Day:** 15  
+**Topic:** Debugging, breakpoints, stepping through code, watching variables  
+**Status:** Completed
 
 This day is six short drills rather than one project, and each drill sits in its own folder here. The debugger drill was also pointed at the Blackjack program from day_011, which is where the sum_score walkthrough at the bottom comes from.
 
