@@ -2,6 +2,7 @@
 
 **Course Day:** 5  
 **Learning Day:** 5 and 7  
+**Date:** 2026-08-21 and 2026-08-25  
 **Topic:** Loops and range, plus Git branching and merge conflicts  
 **Status:** Completed
 
