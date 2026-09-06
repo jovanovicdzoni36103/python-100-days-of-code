@@ -2,6 +2,7 @@
 
 **Course Day:** 11  
 **Learning Day:** 13  
+**Date:** 2026-09-02  
 **Topic:** Capstone project, functions that return values, the Ace rule  
 **Status:** Completed
 
