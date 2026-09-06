@@ -1,4 +1,11 @@
-# Day 011 The Blackjack Capstone Project
+# Day 11: The Blackjack Capstone Project
+
+| | |
+|---|---|
+| Learning Day | 13 |
+| Course Day | Angela Yu Day 11 |
+| Topic | Capstone project, functions that return values, the Ace rule |
+| Status | Completed |
 
 A command line Blackjack game against the computer. House rules: the deck is unlimited, Jack, Queen and King count as 10, and the Ace counts as 11 or 1.
 
