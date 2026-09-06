@@ -2,6 +2,7 @@
 
 **Course Day:** 4  
 **Learning Day:** 6  
+**Date:** 2026-08-24  
 **Topic:** Randomisation, lists, indexing  
 **Status:** Completed
 
