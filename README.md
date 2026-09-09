@@ -1,37 +1,48 @@
-# ai_journey
+# Python: 100 Days of Code
 
-Dnevnik puta ka poslu AI inženjera. Ovde stoje cilj, tempo i ključni datumi. Kod sa kursa je u repou yu_100days.
+My code from *100 Days of Code: The Complete Python Pro Bootcamp* by Angela Yu, plus the drills I wrote on my own when a topic did not stick the first time.
 
-## Cilj
+This is week 3 of a 52 week plan that ends in AI/ML. The course is the first phase of it, not the whole thing.
 
-Ponuda za posao AI inženjera. Plan traje 52 nedelje: start 17.08.2026, poslednji dan plana 13.08.2027. Datum 13.08.2027 nije cilj, to je samo kraj plana. Cilj je ponuda i ona može doći bilo kad posle prvih prijava.
+## Two numbering systems, read this first
 
-## Tempo
+The folders are named after **Angela Yu's course day**. `day_007` is course Day 7.
 
-2 sata dnevno, bez brojanja lekcija. Meri se vreme provedeno u radu, ne broj odgledanih videa.
+Commit messages that start with `dan NNN` refer to **my own learning day**, which counts working days in my plan and does not line up with the course. Course Day 7 was my Learning Day 9.
 
-## Ključni datum 1: petak, 05.02.2027
+The full table is in [course-mapping.md](course-mapping.md). Current status, including how far behind I am, is in [progress.md](progress.md).
 
-Kraj nedelje 25. Kapija 3 položena: RAG sa izmerenim hit rate i faithfulness, 4 objavljena projekta, CV v1 i LinkedIn. Tog dana šaljem prve prijave. Ovaj datum deli plan na dva perioda: pre njega sam kandidat bez dokaza, posle njega kandidat sa dokazima.
+## What is here
 
-## Ključni datum 2: petak, 26.03.2027
+| Folder | Course Day | Project |
+|---|---|---|
+| [day_001](day_001) | Day 1 | Band Name Generator |
+| [day_002](day_002) | Day 2 | Tip Calculator |
+| [day_003](day_003) | Day 3 | Treasure Island |
+| [day_004](day_004) | Day 4 | Rock Paper Scissors |
+| [day_005](day_005) | Day 5 | Password Generator, plus my Git merge conflict practice |
+| [day_006](day_006) | Day 6 | Reeborg exercises and 20 extra drills on functions and loops |
+| [day_007](day_007) | Day 7 | Hangman |
+| [day_008](day_008) | Day 8 | Caesar Cipher |
+| [day_009](day_009) | Day 9 | Secret Auction |
+| [day_010](day_010) | Day 10 | Calculator |
+| [day_011](day_011) | Day 11 | The Blackjack Capstone Project |
+| [day_012](day_012) | Day 12 | Number Guessing Game |
+| [day_013](day_013) | Day 13 | Debugging drills, run against the Day 11 Blackjack code |
+| [Practice Drills](Practice%20Drills) | none | Four levels of exercises I wrote myself, from basic logic to state and validation |
 
-Kraj nedelje 32, Kapija 4. propis_pilot je javno dostupan na URL koji radi sa telefona. Docker compose diže ceo stack iz čistog klona, CI je zelen, README je napisan za poslodavca, demo je snimljen. Ovo je jedina stvar u portfoliju koju neko može da proveri za 30 sekundi bez čitanja koda.
+Every day folder has a README. It is a log, not documentation: what I got wrong, what I looked up, and what finally made it click. That is the part worth reading.
 
-## Ključni datum 3: petak, 23.07.2027
+## What is not here
 
-Kraj nedelje 49. Šest pinovanih repoa, demo video od 3 minuta, portfolio stranica, CV u 3 varijante, LinkedIn v2. Od 26.07.2027 ne gradim ništa novo, samo aplikiram, idem na intervjue i održavam formu.
+The course materials are not in this repository. No `task.md`, no `solution.py`, no lesson scaffolding. That material is the course author's copyrighted work, and `.gitignore` keeps it out.
 
-## Verzije flagship projekta
+Portfolio projects are not here either. This repository is practice. Finished projects get their own repositories, and the plan that schedules them is in `progress.md`.
 
-v1.0 (29.01.2027): RAG nad srpskim propisima, eval tabela i sekcija o tome gde sistem greši.
+## Running anything
 
-v2.0 (26.03.2027): FastAPI, Docker, CI sa eval gateom, javni deploy.
+Python 3.13. No dependencies. Every project is a single script.
 
-v3.0 (23.07.2027): agent sa guardrailima, MCP server, monitoring, p95 i mesečni trošak.
-
-## Repoi
-
-yu_100days: sav kod sa kursa 100 Days of Code, The Complete Python Pro Bootcamp (Angela Yu).
-
-propis_pilot: flagship projekat, dolazi kasnije.
+```
+python day_010/Calculator\ Project/main.py
+```

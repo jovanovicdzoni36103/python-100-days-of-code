@@ -1,0 +1,3 @@
+# Svi tekstualni fajlovi se cuvaju sa LF prelomom reda, i u repou i na disku.
+# Bez ovoga Windows editor ubaci CRLF pa git prijavi izmenu tamo gde je nije bilo.
+* text=auto eol=lf
