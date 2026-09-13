@@ -16,3 +16,8 @@ Hint: f-string izgleda ovako - f"tekst {promenljiva} tekst"
 
 # Napiši rešenje ispod ove linije:
 
+ime_modela = "Claude Opus 4.8"
+predikcija = "Positive"
+confidence = 0.91
+
+print(f"Model '{ime_modela}' says: {predikcija} (confidence: {confidence})")

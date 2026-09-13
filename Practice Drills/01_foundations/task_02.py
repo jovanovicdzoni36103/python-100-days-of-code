@@ -19,3 +19,8 @@ projektu.)
 
 # Napiši rešenje ispod ove linije:
 
+batch_id = "  BATCH_2024_A17  "
+print(f"Obican batch ID: {batch_id}")
+
+clear_batch_id = batch_id.lower().strip().replace("_", "-")
+print(f"Sredjen batch ID: {clear_batch_id}")

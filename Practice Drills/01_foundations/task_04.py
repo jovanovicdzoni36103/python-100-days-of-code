@@ -21,3 +21,16 @@ input, posebno za output, pa to dvoje saberi.
 
 # Napiši rešenje ispod ove linije:
 
+input_tokens = 1200
+output_tokens = 350
+price_per_1k_input = 0.003
+price_per_1k_output = 0.015
+
+input_estimated_cost = (input_tokens / 1000) * price_per_1k_input
+output_estimated_cost = (output_tokens / 1000) * price_per_1k_output
+
+estimated_cost = input_estimated_cost + output_estimated_cost
+
+print(f"Input estimated cost: {input_estimated_cost}\n"
+      f"Output estimated cost: {output_estimated_cost}\n"
+      f"Estimated cost: {estimated_cost}")
