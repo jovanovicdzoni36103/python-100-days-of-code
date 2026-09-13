@@ -1,25 +1,23 @@
 """
-TASK 04 — Koliko košta poziv AI modela
-Level 3 (AI primena)
+TASK 04 — How Much Does an AI Model Call Cost
+Level 3 (AI Application)
 
-Zadatak: Hoćeš unapred da znaš koliko će koštati jedan poziv ka AI
-modelu, na osnovu broja tokena. Cena se računa na 1000 tokena.
+Task: You want to know in advance how much a single AI model call will cost,
+based on the number of tokens. The price is calculated per 1000 tokens.
 
 input_tokens = 1200
 output_tokens = 350
 price_per_1k_input = 0.003
 price_per_1k_output = 0.015
 
-Primer:
+Example:
 Estimated cost: $0.00885
 
-Hint: prvo podeli tokene sa 1000, pa pomnoži cenom - posebno za
-input, posebno za output, pa to dvoje saberi.
+Hint: First divide the tokens by 1000, then multiply by the price - separately for
+input and output, then add the two together.
 
-(Usput: ovako izgleda "cost tracking" u realnim AI automatizacijama.)
+(By the way: this is what "cost tracking" looks like in real AI automations.)
 """
-
-# Napiši rešenje ispod ove linije:
 
 input_tokens = 1200
 output_tokens = 350

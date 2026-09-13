@@ -1,27 +1,25 @@
 """
-TASK 03 — Prosek dva modela
-Level 2 (malo teže)
+TASK 03 — Average of Two Models
+Level 2 (Slightly harder)
 
-Zadatak: Dva modela su dala svoj confidence score. Nađi im prosek i
-ispiši ga zaokružen na 3 decimale.
+Task: Two models have given their confidence scores. Find their average and
+print it rounded to 3 decimal places.
 
 model_a_confidence = 0.812
 model_b_confidence = 0.734
 
-Primer:
+Example:
 Average ensemble confidence: 0.773
 
-Hint: prosek = (a + b) / 2, a za zaokruživanje koristi round(broj, 3)
+Hint: average = (a + b) / 2, and for rounding use round(number, 3)
 
-(Usput: ovo je najprostiji oblik "ensemble" pristupa u AI-ju.)
+(By the way: this is the simplest form of an "ensemble" approach in AI.)
 """
-
-# Napiši rešenje ispod ove linije:
 
 model_a_confidence = 0.812
 model_b_confidence = 0.734
 
-average_models_confidence = round((model_a_confidence + model_b_confidence) / 2,3)
+average_models_confidence = round((model_a_confidence + model_b_confidence) / 2, 3)
 print(f"model_a_confidence: {model_a_confidence}\n"
       f"model_b_confidence: {model_b_confidence}\n"
-      f"average_models_confidence: {average_models_confidence} ")
+      f"average_models_confidence: {average_models_confidence}")

@@ -1,23 +1,21 @@
 """
-TASK 01 — Ispiši rezultat modela
-Level 1 (najlakši)
+TASK 01 — Print Model Result
+Level 1 (Easiest)
 
-Zadatak: Zamisli da si dobio rezultat od AI modela. Napravi 3
-promenljive - ime modela, predikciju i confidence (broj) - i ispiši
-ih u jednoj rečenici, jednim f-stringom.
+Task: Imagine you received a result from an AI model. Create 3
+variables - model name, prediction, and confidence (a number) - and print
+them in a single sentence using a single f-string.
 
-Primer:
+Example:
 Model 'sentiment-v2' says: positive (confidence: 0.91)
 
-Hint: f-string izgleda ovako - f"tekst {promenljiva} tekst"
+Hint: An f-string looks like this - f"text {variable} text"
 
-(Usput: ovako svaki program prikazuje AI rezultat korisniku.)
+(By the way: this is how every program displays an AI result to the user.)
 """
 
-# Napiši rešenje ispod ove linije:
-
-ime_modela = "Claude Opus 4.8"
-predikcija = "Positive"
+model_name = "Claude Opus 4.8"
+prediction = "Positive"
 confidence = 0.91
 
-print(f"Model '{ime_modela}' says: {predikcija} (confidence: {confidence})")
+print(f"Model '{model_name}' says: {prediction} (confidence: {confidence})")

@@ -1,26 +1,22 @@
 """
-TASK 02 — Očisti prljav tekst
-Level 1 (lako)
+TASK 02 — Clean Dirty Text
+Level 1 (Easy)
 
-Zadatak: Dobio si batch ID pun nepotrebnih razmaka, velikih slova i
-podvlaka: "  BATCH_2024_A17  ". Očisti ga - makni razmake, prebaci u
-mala slova, zameni "_" sa "-". Ne mora sve odjednom, može korak po
-korak.
+Task: You received a batch ID full of unnecessary spaces, uppercase letters,
+and underscores: "  BATCH_2024_A17  ". Clean it - remove spaces, convert to
+lowercase, and replace "_" with "-". You don't have to do it all at once,
+you can do it step by step.
 
-Primer:
+Example:
 "batch-2024-a17"
 
-Hint: .strip() makne razmake, .lower() prebaci u mala slova,
-.replace("_", "-") zameni podvlake crticama. Radi to redom.
+Hint: .strip() removes spaces, .lower() converts to lowercase,
+.replace("_", "-") replaces underscores with dashes. Do it in order.
 
-(Usput: ovo je "čišćenje podataka" - prvi korak u skoro svakom AI
-projektu.)
+(By the way: this is "data cleaning" - the first step in almost every AI project.)
 """
 
-# Napiši rešenje ispod ove linije:
-
 batch_id = "  BATCH_2024_A17  "
-print(f"Obican batch ID: {batch_id}")
+print(f"Original batch ID: {batch_id}")
 
-clear_batch_id = batch_id.lower().strip().replace("_", "-")
-print(f"Sredjen batch ID: {clear_batch_id}")
+clear_batch_id = batch_id.lower().strip().replace
