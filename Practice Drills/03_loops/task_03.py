@@ -1,14 +1,23 @@
 """
-TASK 03 - Prebroj tačne predikcije                        [Level 2]
+TASK 03 - Count correct predictions                        [Level 2]
 
-Dato:   predicted = ["cat", "dog", "cat", "bird", "dog"]
-        actual    = ["cat", "cat", "cat", "bird", "fish"]
+Given:   predicted = ["cat", "dog", "cat", "bird", "dog"]
+         actual    = ["cat", "cat", "cat", "bird", "fish"]
 
-Prebroj koliko se predikcija poklapa sa stvarnom vrednošću (isti indeks).
+Count how many predictions match the actual value at the same index.
 
-Izlaz:  Correct: 3 / 5
+Output:  Correct: 3 / 5
 
-AI/ML: Ovo je ručna verzija onoga što accuracy_score radi u scikit-learn-u. Vredi znati kako se to računa pre nego što koristiš gotovu funkciju.
+AI/ML: This is a manual version of what accuracy_score does in scikit-learn. It is worth knowing how it is calculated before using a built-in function.
 """
 
-# Rešenje:
+# Solution:
+predicted = ["cat", "dog", "cat", "bird", "dog"]
+actual    = ["cat", "cat", "cat", "bird", "fish"]
+
+correct = 0
+for pred, act in zip(predicted, actual):
+    if pred == act:
+        correct += 1
+
+print(f"Correct: {correct} / {len(predicted)}")

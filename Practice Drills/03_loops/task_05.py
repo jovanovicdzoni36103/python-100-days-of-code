@@ -1,18 +1,28 @@
 """
-TASK 05 - Uporedi svaki par modela                        [Level 4]
+TASK 05 - Compare every pair of models                     [Level 4]
 
-Dato:   models = {"A": 0.81, "B": 0.77, "C": 0.90}
+Given:   models = {"A": 0.81, "B": 0.77, "C": 0.90}
 
-Za svaki par različitih modela ispiši koji je bolji.
+For each pair of distinct models, print which one is better.
 
-Izlaz (redosled nije bitan):
+Output (order does not matter):
 A vs B: A is better
 A vs C: C is better
 B vs C: C is better
 
-Hint: ugnježdena for petlja nad .items().
+Hint: nested for loop over .items().
 
-AI/ML: Poređenje više modela međusobno (ne samo prema jednom pragu) je uobičajen korak kad biraš koji model ide u produkciju.
+AI/ML: Comparing multiple models against each other (not just against a single threshold) is a common step when choosing which model goes to production.
 """
 
-# Rešenje:
+# Solution:
+models = {"A": 0.81, "B": 0.77, "C": 0.90}
+items = list(models.items())
+
+for i in range(len(items)):
+    for j in range(i + 1, len(items)):
+        name1, score1 = items[i]
+        name2, score2 = items[j]
+
+        better = name1 if score1 > score2 else name2
+        print(f"{name1} vs {name2}: {better} is better")

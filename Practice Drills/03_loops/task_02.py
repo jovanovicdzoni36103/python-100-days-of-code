@@ -1,13 +1,17 @@
 """
-TASK 02 - Obradi samo parne indekse                       [Level 2]
+TASK 02 - Process only even indices                       [Level 2]
 
-Dato:   scores = [0.55, 0.61, 0.72, 0.80, 0.44, 0.90]
+Given:   scores = [0.55, 0.61, 0.72, 0.80, 0.44, 0.90]
 
-Ispiši samo vrednosti na parnim indeksima (0, 2, 4, ...).
+Print only the values at even indices (0, 2, 4, ...).
 
-Uslov: koristi for i range(), ne slicing.
+Condition: Use for and range(), do not use slicing.
 
-AI/ML: Kod velikih dataseta ponekad obrađuješ svaki N-ti red (npr. za brzu proveru uzorka umesto celog dataseta). range() sa korakom je način da to izraziš.
+AI/ML: With large datasets, you sometimes process every N-th row (e.g., for a quick sample check instead of the entire dataset). range() with a step is the way to express this.
 """
 
-# Rešenje:
+# Solution:
+scores = [0.55, 0.61, 0.72, 0.80, 0.44, 0.90]
+
+for i in range(0, len(scores), 2):
+    print(scores[i])
