@@ -1,16 +1,29 @@
 """
-TASK 03 - Poveži dve funkcije u mini pipeline             [Level 3]
+TASK 03 - Connect two functions into a mini pipeline             [Level 3]
 
-Napravi dve funkcije:
-- clean_text(text) - vraća text bez razmaka na krajevima, mala slova
-- word_count(text) - vraća broj reči u textu
+Create two functions:
+- clean_text(text) - returns text with trimmed whitespace, converted to lowercase
+- word_count(text) - returns the number of words in text
 
-Dato:   raw = "  This Is A Sample Review  "
+Given: raw = "  This Is A Sample Review  "
 
-Prosledi raw kroz clean_text(), pa rezultat kroz word_count().
-Ispiši očišćen tekst i broj reči.
+Pass raw through clean_text(), then pass the result through word_count().
+Print the cleaned text and the word count.
 
-AI/ML: Pravi pipeline za obradu teksta (za NLP) je niz malih funkcija koje se pozivaju jedna za drugom: čišćenje, tokenizacija, brojanje, itd.
+AI/ML: A real text processing pipeline (for NLP) is a series of small functions called one after another: cleaning, tokenization, counting, etc.
 """
 
-# Rešenje:
+raw = "  This Is A Sample Review  "
+
+def clean_text(text):
+    return text.strip().lower()
+
+def word_count(text):
+    words = text.split()
+    return len(words)
+
+cleaned_text = clean_text(raw)
+count = word_count(cleaned_text)
+
+print(f"Očišćen tekst: '{cleaned_text}'")
+print(f"Broj reči: {count}")

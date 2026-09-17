@@ -1,20 +1,37 @@
 """
-TASK 05 - Dopuni funkciju i napiši docstring              [Level 5]
+TASK 05 - Complete the function and write a docstring              [Level 5]
 
-Dat je početak funkcije:
+Given the starting function:
 
 def weighted_average(scores, weights):
     ...
 
-Zadatak:
-- Dopuni telo funkcije: pomnoži svaki score sa odgovarajućom težinom,
-  saberi, podeli sa zbirom težina.
-- Napiši docstring od jedne rečenice koji objašnjava šta funkcija radi.
+Task:
+- Complete the function body: multiply each score by its corresponding weight,
+  sum them up, and divide by the sum of weights.
+- Write a one-sentence docstring explaining what the function does.
 
-Dato:   scores = [0.8, 0.6, 0.9]
+Given: scores = [0.8, 0.6, 0.9]
         weights = [0.5, 0.2, 0.3]
 
-AI/ML: Weighted average je osnova ensembling-a: kombinuješ više modela, ali ne sa jednakim uticajem, nego prema tome koliko svakom veruješ.
+AI/ML: Weighted average is the foundation of ensembling: combining multiple models, not with equal impact, but according to how much confidence you have in each.
 """
 
-# Rešenje:
+scores = [0.8, 0.6, 0.9]
+weights = [0.5, 0.2, 0.3]
+
+
+def weighted_average(scores, weights):
+    """Izračunava ponderisani prosečni skor na osnovu zadatih vrednosti i odgovarajućih težina."""
+    total_weighted_sum = 0
+
+    for score, weight in zip(scores, weights):
+        total_weighted_sum += score * weight
+
+    total_weights = sum(weights)
+
+    return total_weighted_sum / total_weights
+
+
+result = weighted_average(scores, weights)
+print(f"Weighted average: {result}")

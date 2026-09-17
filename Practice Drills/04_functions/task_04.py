@@ -1,14 +1,32 @@
 """
-TASK 04 - Funkcija koja vraća više vrednosti              [Level 4]
+TASK 04 - Function returning multiple values              [Level 4]
 
-Dato:   scores = [0.55, 0.91, 0.63, 0.78, 0.40]
+Given: scores = [0.55, 0.91, 0.63, 0.78, 0.40]
 
-Napravi funkciju get_min_max(scores) koja vraća (min, max) kao tuple,
-bez korišćenja ugrađenih min() i max().
+Create a function get_min_max(scores) that returns (min, max) as a tuple,
+without using built-in min() and max() functions.
 
-Ispiši: Min: 0.4, Max: 0.91
+Print: Min: 0.4, Max: 0.91
 
-AI/ML: Funkcije za evaluaciju modela često vraćaju više vrednosti odjednom (npr. precision i recall zajedno). Tuple je najjednostavniji način da to uradiš.
+AI/ML: Model evaluation functions often return multiple values at once (e.g. precision and recall together). Tuple is the simplest way to do that.
 """
 
-# Rešenje:
+scores = [0.55, 0.91, 0.63, 0.78, 0.40]
+
+
+def get_min_max(scores):
+    min_val = scores[0]
+    max_val = scores[0]
+
+    for score in scores:
+        if score < min_val:
+            min_val = score
+        if score > max_val:
+            max_val = score
+
+    return min_val, max_val
+
+
+min_score, max_score = get_min_max(scores)
+
+print(f"Min: {min_score}, Max: {max_score}")
