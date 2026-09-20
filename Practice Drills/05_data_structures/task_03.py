@@ -1,13 +1,24 @@
 """
-TASK 03 - Dataset kao lista uzoraka                       [Level 3]
+TASK 03 - Dataset as a List of Samples                    [Level 3]
 
-Napravi listu dataset sa 3 uzorka. Svaki uzorak je rečnik sa ključevima
-"id" i "label", npr. {"id": 1, "label": "spam"}.
+Create a list named `dataset` containing 3 samples. Each sample is a dictionary
+with the keys "id" and "label", e.g., {"id": 1, "label": "spam"}.
 
-Prođi kroz dataset i ispiši samo id one predikcije čija je label
-jednaka "spam".
+Iterate through `dataset` and print only the `id` of those samples whose `label`
+is equal to "spam".
 
-AI/ML: Dataset u Python-u, pre nego što postane DataFrame ili numpy niz, skoro uvek počinje kao lista rečnika, jedan rečnik po redu podataka.
+AI/ML: In Python, before a dataset becomes a DataFrame or a NumPy array,
+it almost always starts as a list of dictionaries—one dictionary per row of data.
 """
 
-# Rešenje:
+# Solution:
+
+dataset = [
+    {"id": 1, "label": "spam"},
+    {"id": 2, "label": "ham"},
+    {"id": 3, "label": "spam"}
+]
+
+for sample in dataset:
+    if sample["label"] == "spam":
+        print(f"Spam sample ID: {sample['id']}")

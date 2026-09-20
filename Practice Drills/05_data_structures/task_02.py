@@ -1,15 +1,25 @@
 """
-TASK 02 - Rečnik sa metrikama jednog modela               [Level 2]
+TASK 02 - Dictionary with Metrics for a Single Model      [Level 2]
 
-Napravi rečnik metrics sa ključevima "accuracy", "precision", "recall"
-i vrednostima po tvom izboru (float između 0 i 1).
+Create a `metrics` dictionary with keys "accuracy", "precision", "recall"
+and values of your choice (floats between 0 and 1).
 
-Ispiši svaku metriku u formatu:
-Izlaz:  accuracy: 0.87
+Print each metric in the format:
+Output:  accuracy: 0.87
 
-Uslov: koristi .items() u petlji, ne ručno navođenje ključeva.
+Condition: Use .items() in a loop, not manual key listing.
 
-AI/ML: Rezultat evaluacije modela se skoro uvek predstavlja kao rečnik: {metrika: vrednost}. To je format koji vraćaju i scikit-learn i većina ML biblioteka.
+AI/ML: Model evaluation results are almost always represented as a dictionary:
+{metric: value}. This is the standard format returned by scikit-learn and most ML libraries.
 """
 
-# Rešenje:
+# Solution:
+
+metrics = {
+    "accuracy": 0.87,
+    "precision": 0.82,
+    "recall": 0.91
+}
+
+for metric, value in metrics.items():
+    print(f"{metric}: {value}")
