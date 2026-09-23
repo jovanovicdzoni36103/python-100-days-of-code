@@ -1,8 +1,8 @@
 # Python: 100 Days of Code
 
-My code from *100 Days of Code: The Complete Python Pro Bootcamp* by Angela Yu, plus the drills I wrote on my own when a topic did not stick the first time.
+My code from *100 Days of Code: The Complete Python Pro Bootcamp* by Angela Yu, started on 16 August 2026.
 
-This is week 3 of a 52 week plan that ends in AI/ML. The course is the first phase of it, not the whole thing.
+The course is the first phase of a longer plan toward AI/ML, not the whole thing.
 
 ## Two numbering systems, read this first
 
@@ -29,9 +29,19 @@ The full table is in [course-mapping.md](course-mapping.md). Current status, inc
 | [day_011](day_011) | Day 11 | The Blackjack Capstone Project |
 | [day_012](day_012) | Day 12 | Number Guessing Game |
 | [day_013](day_013) | Day 13 | Debugging drills, run against the Day 11 Blackjack code |
-| [Practice Drills](Practice%20Drills) | none | Four levels of exercises I wrote myself, from basic logic to state and validation |
+| [day_014](day_014) | Day 14 | Higher Lower Game |
+| [day_015](day_015) | Day 15 | Coffee Machine |
+| [day_016](day_016) | Day 16 | Coffee Machine, object-oriented version |
+| [day_017](day_017) | Day 17 | Quiz Project (classes) |
+| [day_018](day_018) | Day 18 | Turtle graphics |
+| [day_019](day_019) | Day 19 | Etch-A-Sketch and Turtle Race |
+| [day_025](day_025) | Day 25 | U.S. States Game with pandas and CSV |
+| [day_026](day_026) | Day 26 | List and dictionary comprehensions |
+| [day_030](day_030) | Day 30 | Password Manager with JSON and exception handling |
+| [day_033](day_033) | Day 33 | First API calls with requests, plus my own Belgrade sunrise/sunset script |
+| [Practice Drills](Practice%20Drills) | none | Extra exercise prompts in 24 topic folders, generated with an AI tutor as a practice plan. Most are not solved yet |
 
-Every day folder has a README. It is a log, not documentation: what I got wrong, what I looked up, and what finally made it click. That is the part worth reading.
+The days listed above are the ones with real work; the other day folders are placeholders for course days I have not reached. Most folders from Day 1 to Day 19 have a README that is a log, not documentation: what I got wrong, what I looked up, and what finally made it click. That is the part worth reading.
 
 ## What is not here
 
