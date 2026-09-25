@@ -1,7 +1,7 @@
 """
-TASK 03 - Pronađi zašto je prosek pogrešan                [Level 3]
+TASK 03 - Find why the average is wrong                [Level 3]
 
-Ovaj kod ne baca grešku, ali daje pogrešan rezultat:
+This code does not throw an error, but gives a wrong result:
 
 scores = [0.8, 0.6, 0.9, 0.7]
 total = 0
@@ -11,9 +11,15 @@ average = total / 3
 
 print(f"Average: {average}")
 
-Pronađi grešku i popravi je tako da average bude tačan prosek.
+Find the error and fix it so that average is the exact average.
 
-AI/ML: Greške koje ne bacaju exception, nego samo daju pogrešan broj (kao ovde pogrešan imenilac), su opasnije od pravih grešaka jer lako prođu neprimećeno u evaluaciji modela.
+AI/ML: Errors that do not throw an exception, but simply give a wrong number (like a wrong denominator here), are more dangerous than actual errors because they easily go unnoticed in model evaluation.
 """
 
-# Rešenje:
+scores = [0.8, 0.6, 0.9, 0.7]
+total = 0
+for s in scores:
+    total += s
+average = total / len(scores)
+
+print(f"Average: {average}")

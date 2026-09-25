@@ -1,17 +1,18 @@
 """
-TASK 01 - Popravi TypeError u ispisu                      [Level 2]
+TASK 01 - Fix TypeError in Output                      [Level 2]
 
-Ovaj kod baca grešku:
+This code throws an error:
 
 confidence = 0.91
 print("Confidence: " + confidence)
 
-Pokreni ga, pročitaj grešku iz terminala, pa ga popravi tako da ispiše:
-Izlaz:  Confidence: 0.91
+Run it, read the error from the terminal, and fix it so that it outputs:
+Output:  Confidence: 0.91
 
-Uslov: ne menjaj vrednost promenljive confidence.
+Condition: Do not change the value of the confidence variable.
 
-AI/ML: TypeError zbog mešanja string i float vrednosti je jedna od najčešćih grešaka kad ispisuješ rezultate modela. Vredi je prepoznati na prvi pogled.
+AI/ML: TypeError due to mixing string and float values is one of the most common errors when outputting model results. It is worth recognizing at first glance.
 """
 
-# Rešenje:
+confidence = 0.91
+print(f"Confidence: {confidence}")

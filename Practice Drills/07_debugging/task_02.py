@@ -1,16 +1,18 @@
 """
-TASK 02 - Popravi IndexError u petlji                     [Level 2]
+TASK 02 - Fix IndexError in Loop                      [Level 2]
 
-Ovaj kod baca grešku:
+This code throws an error:
 
 scores = [0.5, 0.7, 0.9]
 for i in range(len(scores) + 1):
     print(scores[i])
 
-Pokreni ga, pročitaj traceback, pronađi tačan red gde je problem i
-popravi ga.
+Run it, read the traceback, find the exact line where the problem is and
+fix it.
 
-AI/ML: IndexError zbog petlje koja ide jedan korak predaleko (off-by-one) je čest bag kad obrađuješ listu predikcija ili redove dataseta.
+AI/ML: IndexError due to a loop going one step too far (off-by-one) is a common bug when processing a list of predictions or dataset rows.
 """
 
-# Rešenje:
+scores = [0.5, 0.7, 0.9]
+for i in range(len(scores)):
+    print(scores[i])
