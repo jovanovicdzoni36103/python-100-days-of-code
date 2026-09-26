@@ -1,15 +1,25 @@
 """
-TASK 01 - Klasa Model                                     [Level 2]
+TASK 01 - Model Class                                     [Level 2]
 
-Napravi klasu Model sa __init__(self, name, accuracy) koja postavlja
-atribute self.name i self.accuracy.
+Create a class Model with __init__(self, name, accuracy) that sets
+attributes self.name and self.accuracy.
 
-Dodaj metodu summary() koja vraća string:
-Izlaz:  Model 'sentiment-v2' has accuracy 0.87
+Add a summary() method that returns the string:
+Output:  Model 'sentiment-v2' has accuracy 0.87
 
-Napravi jedan objekat i pozovi summary().
+Create one object and call summary().
 
-AI/ML: Klasa Model je način da ime, accuracy i sve ostale osobine jednog modela držiš na jednom mestu, umesto u gomili odvojenih promenljivih.
+AI/ML: The Model class is a way to keep the name, accuracy, and all other properties of a model in one place, instead of a bunch of separate variables.
 """
 
-# Rešenje:
+class Model:
+    def __init__(self, name, accuracy):
+        self.name = name
+        self.accuracy = accuracy
+
+    def summary(self):
+        return f"Model '{self.name}' has accuracy {self.accuracy}"
+
+
+model = Model("sentiment-v2", 0.87)
+print(model.summary())
