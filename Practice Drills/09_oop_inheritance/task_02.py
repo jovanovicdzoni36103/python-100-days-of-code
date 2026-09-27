@@ -1,14 +1,29 @@
 """
-TASK 02 - Override metode u podklasi                      [Level 4]
+TASK 02 - Method Override in Subclass                      [Level 4]
 
-Podklasa ClassifierModel treba da ima svoju verziju summary() metode
-koja vraća:
-Izlaz:  Classifier 'spam-detector' - accuracy 0.91
+The ClassifierModel subclass should have its own version of the summary() method
+that returns:
+Output:  Classifier 'spam-detector' - accuracy 0.91
 
-Uslov: bazna klasa Model zadržava svoju originalnu summary() metodu,
-samo je podklasa menja (override).
+Condition: The base class Model retains its original summary() method;
+only the subclass overrides it.
 
-AI/ML: Različiti tipovi modela (klasifikator, regresor) imaju različite relevantne metrike, pa im treba i drugačiji ispis rezultata. Override je način da to izraziš.
+AI/ML: Different types of models (classifier, regressor) have different relevant metrics, so they need different result outputs. Overriding is a way to express that.
 """
 
-# Rešenje:
+class Model:
+    def __init__(self, name, accuracy):
+        self.name = name
+        self.accuracy = accuracy
+
+    def summary(self):
+        return f"Model '{self.name}' has accuracy {self.accuracy}"
+
+
+class ClassifierModel(Model):
+    def summary(self):
+        return f"Classifier '{self.name}' - accuracy {self.accuracy}"
+
+
+model = ClassifierModel("spam-detector", 0.91)
+print(model.summary())

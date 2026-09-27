@@ -1,15 +1,27 @@
 """
-TASK 01 - Bazna klasa i podklasa                          [Level 3]
+TASK 01 - Base Class and Subclass                          [Level 3]
 
-Koristi baznu klasu Model iz prethodnog modula (name, accuracy).
+Use the base class Model from the previous module (name, accuracy).
 
-Napravi podklasu ClassifierModel koja nasleđuje Model, bez dodatnog
-koda (samo pass ili nasleđeni __init__).
+Create a subclass ClassifierModel that inherits from Model, with no additional
+code (just pass or inherited __init__).
 
-Napravi objekat ClassifierModel i ispiši njegove atribute name i
-accuracy.
+Create a ClassifierModel object and print its name and
+accuracy attributes.
 
-AI/ML: Nasleđivanje ti omogućava da imaš opštu klasu Model, a onda posebne verzije za klasifikatore, regresore itd, bez ponavljanja koda.
+AI/ML: Inheritance allows you to have a general Model class, and then specific versions for classifiers, regressors, etc., without repeating code.
 """
 
-# Rešenje:
+class Model:
+    def __init__(self, name, accuracy):
+        self.name = name
+        self.accuracy = accuracy
+
+
+class ClassifierModel(Model):
+    pass
+
+
+model = ClassifierModel("resnet-50", 0.92)
+print(model.name)
+print(model.accuracy)
